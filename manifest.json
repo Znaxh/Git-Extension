@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Commit To Repo",
+    "version": "1.0",
+    "description": "Easily Commit to Readme files of repos.",
+    "permissions": [],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "icons": {
+      "16": "icon.png",
+      "32": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    },
+    "host_permissions": [
+      "https://api.github.com/"
+    ]
+  }
+  
